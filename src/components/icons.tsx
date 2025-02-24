@@ -11,13 +11,19 @@ import {
 
 export const Icons = {
   number3: ({ className, ...props }: { className?: string }) => (
-    <div className={className} {...props}>3</div>
+    <div className={`flex items-center justify-center text-2xl font-bold ${className}`} {...props}>
+      3
+    </div>
   ),
   number6: ({ className, ...props }: { className?: string }) => (
-    <div className={className} {...props}>6</div>
+    <div className={`flex items-center justify-center text-2xl font-bold ${className}`} {...props}>
+      6
+    </div>
   ),
   number9: ({ className, ...props }: { className?: string }) => (
-    <div className={className} {...props}>9</div>
+    <div className={`flex items-center justify-center text-2xl font-bold ${className}`} {...props}>
+      9
+    </div>
   ),
   heart: Heart,
   smile: Smile,
